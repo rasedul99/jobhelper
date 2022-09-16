@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Footer from "./component/Footer/Footer";
 import Login from "./component/Login/Login";
 import Navbar from "./component/Navbar/Navbar";
 import SignUp from "./component/SignUp/SignUp";
@@ -11,6 +12,7 @@ function App() {
         <Route path="/signin" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
